@@ -659,11 +659,11 @@ start_authentication (const gchar *username)
     {
         gtk_widget_show (GTK_WIDGET (username_entry));
         gtk_widget_show (GTK_WIDGET (cancel_button));
-        lightdm_greeter_authenticate (greeter, NULL);
+        lightdm_greeter_authenticate (greeter, NULL, NULL);
     }
     else if (g_strcmp0 (username, "*guest") == 0)
     {
-        lightdm_greeter_authenticate_as_guest (greeter);
+        lightdm_greeter_authenticate_as_guest (greeter, NULL);
     }
     else
     {
@@ -683,7 +683,7 @@ start_authentication (const gchar *username)
             set_language (NULL);
         }
 
-        lightdm_greeter_authenticate (greeter, username);
+        lightdm_greeter_authenticate (greeter, username, NULL);
     }
 }
 
@@ -705,7 +705,7 @@ cancel_authentication (void)
     if (lightdm_greeter_get_in_authentication (greeter))
     {
         cancelling = TRUE;
-        lightdm_greeter_cancel_authentication (greeter);
+        lightdm_greeter_cancel_authentication (greeter, NULL);
         set_message_label ("");
     }
 
@@ -742,7 +742,7 @@ start_session (void)
 
     language = get_language ();
     if (language)
-        lightdm_greeter_set_language (greeter, language);
+        lightdm_greeter_set_language (greeter, language, NULL);
     g_free (language);
 
     session = get_session ();
@@ -1072,7 +1072,7 @@ login_cb (GtkWidget *widget)
         start_session ();
     else if (lightdm_greeter_get_in_authentication (greeter))
     {
-        lightdm_greeter_respond (greeter, gtk_entry_get_text (password_entry));
+        lightdm_greeter_respond (greeter, gtk_entry_get_text (password_entry), NULL);
         /* If we have questions pending, then we continue processing
          * those, until we are done. (Otherwise, authentication will
          * not complete.) */
@@ -1671,7 +1671,8 @@ main (int argc, char **argv)
     #endif
 
     /* Prevent memory from being swapped out, as we are dealing with passwords */
-    mlockall (MCL_CURRENT | MCL_FUTURE);
+    /* !!!!! mlockall (MCL_CURRENT | MCL_FUTURE);  MCL_FUTURE is broken on buster !!!!! */
+    mlockall (MCL_CURRENT);
 
     /* Disable global menus */
     g_unsetenv ("UBUNTU_MENUPROXY");

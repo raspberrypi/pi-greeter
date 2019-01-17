@@ -1,3 +1,10 @@
+pi-greeter (0.10) unstable; urgency=medium
+
+  * Modify lightdm API calls to add null error pointers
+  * Remove MCL_FUTURE argument to mlockall call for now
+
+ -- Simon Long <simon@raspberrypi.org>  Thu, 17 Jan 2019 08:52:59 +0000
+
 pi-greeter (0.9) stretch; urgency=medium
 
   * Do not change existing greeter session or hide users settings
