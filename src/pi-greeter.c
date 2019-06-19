@@ -1671,8 +1671,7 @@ main (int argc, char **argv)
     #endif
 
     /* Prevent memory from being swapped out, as we are dealing with passwords */
-    /* !!!!! mlockall (MCL_CURRENT | MCL_FUTURE);  MCL_FUTURE is broken on buster !!!!! */
-    mlockall (MCL_CURRENT);
+    mlockall (MCL_CURRENT | MCL_FUTURE);
 
     /* Disable global menus */
     g_unsetenv ("UBUNTU_MENUPROXY");
