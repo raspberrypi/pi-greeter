@@ -1,60 +1,71 @@
 # Slovak translation for lightdm
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
 # This file is distributed under the same license as the lightdm package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+# Mirek Biňas <mirek@cnl.sk>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lightdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-15 17:37-0400\n"
-"PO-Revision-Date: 2013-05-08 06:42+0000\n"
-"Last-Translator: Lionel Le Folgoc <lionel@lefolgoc.net>\n"
+"POT-Creation-Date: 2019-07-11 15:58+0200\n"
+"PO-Revision-Date: 2019-07-15 16:30+0000\n"
+"Last-Translator: Mirek Biňas <mirek@cnl.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-01 06:31+0000\n"
-"X-Generator: Launchpad (build 16985)\n"
-"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:((n>=2&&n<=4)?1:2));\n"
 
-#: ../src/lightdm-gtk-greeter.c:708
-msgid "Unlock"
-msgstr ""
+#: pi-greeter.c:1823
+msgid "Enter your password"
+msgstr "Zadajte vaše heslo"
 
-#: ../src/lightdm-gtk-greeter.c:710 ../src/lightdm-gtk-greeter.glade.h:8
-msgid "Log In"
-msgstr ""
+#: pi-greeter.c:1824
+msgid "Enter your username"
+msgstr "Zadajte vaše používateľské meno"
 
-#: ../src/lightdm-gtk-greeter.c:1079
+#: pi-greeter.c:1159
+msgid "Failed to authenticate"
+msgstr "Zlyhalo overenie totožnosti"
+
+#: pi-greeter.c:768
 msgid "Failed to start session"
 msgstr "Zlyhalo spustenie relácie"
 
-#: ../src/lightdm-gtk-greeter.c:1254
-msgid "Other"
-msgstr ""
-
-#: ../src/lightdm-gtk-greeter.c:1266 ../src/lightdm-gtk-greeter.c:1852
+#: pi-greeter.c:941 pi-greeter.c:1324
 msgid "Guest Session"
-msgstr ""
+msgstr "Hosťovská relácia"
 
-#: ../src/lightdm-gtk-greeter.c:1479
+#: pi-greeter.c:1155
 msgid "Incorrect password, please try again"
 msgstr "Nepsrávne heslo, prosím, skúste to znovu"
 
-#: ../src/lightdm-gtk-greeter.c:1483
-msgid "Failed to authenticate"
-msgstr "Zlyhalo overenie totožnosti"
+#: pi-greeter.c:394
+msgid "Log In"
+msgstr "Prihlásiť"
+
+#: pi-greeter.c:929
+msgid "Other"
+msgstr "Iný"
+
+#: pi-greeter.c:1332
+msgid "Other..."
+msgstr "Niekto iný..."
+
+#: pi-greeter.c:392
+msgid "Unlock"
+msgstr "Odomknúť"
 
 #: ../src/lightdm-gtk-greeter.c:1526
 #, c-format
 msgid "Warning: There are still %d users logged in."
-msgstr ""
+msgstr "Upozornenie: Stále je prihlásených %d používateľov."
 
 #: ../src/lightdm-gtk-greeter.c:1528
 #, c-format
 msgid "Warning: There is still %d user logged in."
-msgstr ""
+msgstr "Upozornenie: Stále je prihlásený %d používateľ."
 
 #: ../src/lightdm-gtk-greeter.c:1540 ../src/lightdm-gtk-greeter.glade.h:9
 msgid "Cancel"
@@ -71,24 +82,12 @@ msgstr ""
 
 #: ../src/lightdm-gtk-greeter.c:1594
 msgid "Shut Down"
-msgstr ""
+msgstr "Vypnúť"
 
 #: ../src/lightdm-gtk-greeter.c:1594
 msgid ""
 "Are you sure you want to close all programs and shut down the computer?"
-msgstr ""
-
-#: ../src/lightdm-gtk-greeter.c:1860
-msgid "Other..."
-msgstr "Niekto iný..."
-
-#: ../src/lightdm-gtk-greeter.c:2513 ../src/lightdm-gtk-greeter.c:2520
-msgid "Enter your password"
-msgstr ""
-
-#: ../src/lightdm-gtk-greeter.c:2514 ../src/lightdm-gtk-greeter.c:2521
-msgid "Enter your username"
-msgstr ""
+msgstr "Ste si istý, že chcete zavrieť všetky programy a vypnúť váš počítač?"
 
 #: ../src/lightdm-gtk-greeter.glade.h:1
 msgid "Suspend"
@@ -98,13 +97,9 @@ msgstr "Uspať"
 msgid "Hibernate"
 msgstr "Hibernovať"
 
-#: ../src/lightdm-gtk-greeter.glade.h:3
-msgid "Restart..."
-msgstr "Reštartovať..."
-
 #: ../src/lightdm-gtk-greeter.glade.h:4
 msgid "Shut Down..."
-msgstr ""
+msgstr "Vypnúť..."
 
 #: ../src/lightdm-gtk-greeter.glade.h:5
 msgid "Large Font"
@@ -116,4 +111,4 @@ msgstr "Vysoký kontrast"
 
 #: ../src/lightdm-gtk-greeter.glade.h:7
 msgid "On Screen Keyboard"
-msgstr ""
+msgstr "Klávesnica na obrazovke"
