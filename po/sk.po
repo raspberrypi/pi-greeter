@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lightdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-11 15:58+0200\n"
-"PO-Revision-Date: 2019-07-15 16:30+0000\n"
+"PO-Revision-Date: 2020-12-13 21:33+0100\n"
 "Last-Translator: Mirek Biňas <mirek@cnl.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "Language: sk\n"
@@ -39,7 +39,7 @@ msgstr "Hosťovská relácia"
 
 #: pi-greeter.c:1155
 msgid "Incorrect password, please try again"
-msgstr "Nepsrávne heslo, prosím, skúste to znovu"
+msgstr "Nesprávne heslo, prosím, skúste to znovu"
 
 #: pi-greeter.c:394
 msgid "Log In"
