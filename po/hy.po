@@ -1,0 +1,119 @@
+# Armenian (Armenia) translation for lightdm
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the lightdm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-15 17:37-0400\n"
+"PO-Revision-Date: 2013-05-08 06:39+0000\n"
+"Last-Translator: Avag Sayan <info@armath.am>\n"
+"Language-Team: Armenian (Armenia)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-01 06:31+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
+"Language: \n"
+
+#: ../src/lightdm-gtk-greeter.c:708
+msgid "Unlock"
+msgstr "Բացել կողպածը"
+
+#: ../src/lightdm-gtk-greeter.c:710 ../src/lightdm-gtk-greeter.glade.h:8
+msgid "Log In"
+msgstr "Մուտք"
+
+#: ../src/lightdm-gtk-greeter.c:1079
+msgid "Failed to start session"
+msgstr "Սեսիայի մեկնարկը ձախողվեց"
+
+#: ../src/lightdm-gtk-greeter.c:1254
+msgid "Other"
+msgstr "Այլ"
+
+#: ../src/lightdm-gtk-greeter.c:1266 ../src/lightdm-gtk-greeter.c:1852
+msgid "Guest Session"
+msgstr "Հյուրի սեսիա"
+
+#: ../src/lightdm-gtk-greeter.c:1479
+msgid "Incorrect password, please try again"
+msgstr "Սխալ գաղտնաբառ, խնդրում ենք նորից փորձել"
+
+#: ../src/lightdm-gtk-greeter.c:1483
+msgid "Failed to authenticate"
+msgstr "Չհաջողվեց նույնականացնել"
+
+#: ../src/lightdm-gtk-greeter.c:1526
+#, c-format
+msgid "Warning: There are still %d users logged in."
+msgstr "Զգուշացում՝ %d օգտատերերը դեռ մուտք գործած է"
+
+#: ../src/lightdm-gtk-greeter.c:1528
+#, c-format
+msgid "Warning: There is still %d user logged in."
+msgstr "Զգուշացում՝ %d օգտատերը դեռ մուտք գործած է"
+
+#: ../src/lightdm-gtk-greeter.c:1540 ../src/lightdm-gtk-greeter.glade.h:9
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: ../src/lightdm-gtk-greeter.c:1579
+msgid "Restart"
+msgstr "Վերագործարկել"
+
+#: ../src/lightdm-gtk-greeter.c:1579
+msgid "Are you sure you want to close all programs and restart the computer?"
+msgstr ""
+"Ցանկանո՞ւմ եք փակել բոլոր ծրագրերն ու վերագործարկել համակարգիչը"
+
+#: ../src/lightdm-gtk-greeter.c:1594
+msgid "Shut Down"
+msgstr "Անջատել"
+
+#: ../src/lightdm-gtk-greeter.c:1594
+msgid ""
+"Are you sure you want to close all programs and shut down the computer?"
+msgstr "Ցանկանո՞ւմ եք փակել բոլոր ծրագրերն ու անջատել համակարգիչը"
+
+#: ../src/lightdm-gtk-greeter.c:1860
+msgid "Other..."
+msgstr "Այլ..."
+
+#: ../src/lightdm-gtk-greeter.c:2513 ../src/lightdm-gtk-greeter.c:2520
+msgid "Enter your password"
+msgstr "Մուտքագրել գաղտնաբառը"
+
+#: ../src/lightdm-gtk-greeter.c:2514 ../src/lightdm-gtk-greeter.c:2521
+msgid "Enter your username"
+msgstr "Մուտքագրել օգտանունը"
+
+#: ../src/lightdm-gtk-greeter.glade.h:1
+msgid "Suspend"
+msgstr "Կասեցնել"
+
+#: ../src/lightdm-gtk-greeter.glade.h:2
+msgid "Hibernate"
+msgstr "Սառեցնել"
+
+#: ../src/lightdm-gtk-greeter.glade.h:3
+msgid "Restart..."
+msgstr "Վերագործարկել..."
+
+#: ../src/lightdm-gtk-greeter.glade.h:4
+msgid "Shut Down..."
+msgstr "Անջատել"
+
+#: ../src/lightdm-gtk-greeter.glade.h:5
+msgid "Large Font"
+msgstr "Մեծ տառատեսակ"
+
+#: ../src/lightdm-gtk-greeter.glade.h:6
+msgid "High Contrast"
+msgstr "Բարձր կոնտրաստ"
+
+#: ../src/lightdm-gtk-greeter.glade.h:7
+msgid "On Screen Keyboard"
+msgstr "Ստեղնաշար էկրանի վրա"
